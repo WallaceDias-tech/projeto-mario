@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Mario Bros</title>
+</head>
+
+<body>
+
+    <div class="cabecalho">
+        <img src="./logo-cabecalho.png" alt="logo-cabecalho-mario"/>
+        <a>Home</a>
+        <a>Fale Conosco</a>
+        <a>Nossos Serviços</a>
+    </div>
+
+    <div class="caixa-principal">
+        <div class="div-1">
+            <img class="logo"  src =".//logo.png" alt="Super-mario"/>
+
+            <p class="infortexto">Mario (O Mestre de Obras): É o especialista em diagnóstico. Com seu biotipo robusto e centro de gravidade
+                baixo,
+                ele é ideal para manobrar em espaços confinados, como tubulações de esgoto e caldeiras. Mario foca na
+                funcionalidade pesada: abrir válvulas emperradas, desentupir sistemas críticos e garantir que a pressão
+                hidrostática esteja estável.
+
+
+                Luigi (O Especialista em Alcance): Graças à sua altura e pernas longas, Luigi é o responsável por
+                alcançar
+                conexões em tetos altos ou profundidades de difícil acesso. Ele possui uma abordagem mais cautelosa e
+                técnica,
+                sendo muitas vezes o responsável pelo ajuste fino de engrenagens e sistemas de filtragem.</p>
+
+            <button onclick="mostrarform()"> Entre em contato</button>
+        </div>
+
+            <div class="div-2">
+                <img class="mario" src="./mario_luigi_sem_fundo.png" alt="Mario-Luigi" />
+        </div>
+
+    </div>
+
+   <div class="caixa-video">
+   
+    <video src="./video.mp4" autoplay loop muted></video>
+    <div class="mascara-video"></div>
+</div>
+
+<div class="caixa-link-whatsapp">
+    <a href="https://wa.me/5511998778915?text=Quero%20um%20servi%C3%A7o!" class="link-whatsapp">
+        <img src="./whatsapp.png" alt="whatsapp"/>
+    </a>
+</div>
+
+<form class="formulario">
+    <input placeholder="Seu Nome" type="text" name="nome"/>
+    <input placeholder="Seu email" type="email" name="email"/>
+    <textarea placeholder="Digite seu problema aqui..." name="problema"></textarea>
+    <button>Pedir Orçamento</button>
+</form>
+
+<div class="mascara-formulario" onclick="esconderform()"></div>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
